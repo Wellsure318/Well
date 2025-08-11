@@ -1,31 +1,28 @@
 <template>
-  <div class="gezi">
-    <div class="container">
-      <section class="top-section">
-        <div class="left">
-          <h1 class="title">作品集</h1>
-          <div class="btn-group">
-            <n-button circle color="#222" size="large">联系我</n-button>
-            <n-button circle color="#222" size="large">给企业的一封信</n-button>
-          </div>
-        </div>
-        <div class="right">
-          <img src="./assets/character.png" alt="人物" />
-        </div>
-      </section>
-
-      <section id="works" class="works-section">
-        <h2>作品展示</h2>
-        <div class="work-item">
-          <img src="/src/assets/psc.jpg" alt="作品1" />
-        </div>
-        <div class="work-item">
-          <img src="https://picsum.photos/1200/600?random=2" alt="作品2" />
-        </div>
-        <div class="work-item">
-          <img src="https://picsum.photos/1200/600?random=3" alt="作品3" />
-        </div>
-      </section>
+  <div class="page-outer">
+    <div class="page-inner">
+      <div class="home1">
+        <img src="./assets/1.png">
+        <img src="./assets/2.png">
+        <img src="./assets/3.png">
+        <img src="./assets/4.png">
+        <img src="./assets/5.png">
+        <img src="./assets/5.gif">
+        <img src="./assets/6.png">
+        <img src="./assets/7.png">
+        <img src="./assets/8.png">
+        <img src="./assets/9.png">
+        <img src="./assets/10.png">
+        <img src="./assets/11.png">
+        <img src="./assets/12.png">
+        <video controls class="video">
+          <source src="./assets/骨骼绑定演示视频.mp4" type="video/mp4">
+        </video>
+        <img src="./assets/13.png">
+        <img src="./assets/14.png">
+        <img src="./assets/15.png">
+        <img src="./assets/16.png">
+      </div>
     </div>
   </div>
 </template>
@@ -34,129 +31,53 @@
 </script>
 
 <style scoped>
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.page-outer {
+  min-height: 100vh;
+  background-color: white; /* 整个页面白色背景 */
+  display: flex;
+  justify-content: center; /* 水平居中内层容器 */
+  align-items: flex-start;
+  padding: 20px 0; /* 上下留20px空隙 */
+  box-sizing: border-box;
 }
 
-.gezi {
-  background-color: #ffffff;
+.page-inner {
+  width: 90vw;       /* 页面宽度的90% */
+  max-width: 1200px; /* 最大宽度 */
+  
+  /* 格子背景 */
+  background-color: white;
   background-image:
     linear-gradient(to right, #ccc 1px, transparent 1px),
     linear-gradient(to bottom, #ccc 1px, transparent 1px);
   background-size: 30px 30px;
-  color: #222;
-  line-height: 1.6;
-  min-height: 100vh;
+  
+  padding: 24px 40px; /* 内边距让内容不贴边 */
+  box-sizing: border-box;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
 }
 
-.container {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 20px 15px;
+.home1 img {
+  margin: 20px 0; /* 图片间距 */
 }
 
-/* 顶部左右布局 */
-.top-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  background: #fff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
-  align-items: center;
+.video {
+  max-width: 100%;   /* 最多和容器一样宽 */
+  height: auto;      /* 按比例缩放 */
+  margin: 20px 0;    /* 上下间距 */
 }
 
-/* 左侧介绍区域 */
-.left {
-  flex: 1 1 320px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.title {
-  font-size: 5rem;
-  font-weight: 700;
-  margin: 0 0 20px 0;
-  color: #111;
-}
-
-/* 按钮组 */
-.btn-group {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.btn-group {
-  min-width: 140px;
-  font-size: 1rem;
-  padding: 12px 20px;
-}
-
-button {
-  width: 80%;
-  font-size: 150%;
-}
-
-/* 右侧人物立绘 */
-.right {
-  flex: 1 1 320px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.right img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* 作品展示 */
-.works-section {
-  margin-top: 40px;
-}
-
-.works-section h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #222;
-}
-
-.work-item {
-  margin-bottom: 30px;
-}
-
-.work-item img {
+.home1 {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home1 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
-  transition: transform 0.3s ease;
-}
-
-.work-item img:hover {
-  transform: scale(1.03);
-}
-
-/* 响应式 */
-@media (max-width: 900px) {
-  .top-section {
-    flex-direction: column;
-    padding: 20px;
-  }
-  .btn-group {
-    justify-content: center;
-    gap: 15px;
-  }
-  .btn-group n-button {
-    min-width: 120px;
-    font-size: 0.9rem;
-  }
+  display: block;
 }
 </style>
