@@ -2,26 +2,26 @@
   <div class="page-outer">
     <div class="page-inner">
       <div class="home1">
-        <img src="./assets/1.png">
-        <img src="./assets/2.png">
-        <img src="./assets/3.png">
-        <img src="./assets/4.png">
-        <img src="./assets/5.png">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/02d8d421f41f688bd08ec969df4a4fa0.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/80916efff50be1945c152692aadcf87c.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/b62056ff7a67c3c6721dd9bb2ab5cf01.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/a66f68e2cf2fcf9061fabff0d04fd3c5.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/167afaf1a3a5aa758377d182227089d4.png?imageMogr2/format/webp/quality/40/ignore-error/1">
         <img src="./assets/5.gif">
-        <img src="./assets/6.png">
-        <img src="./assets/7.png">
-        <img src="./assets/8.png">
-        <img src="./assets/9.png">
-        <img src="./assets/10.png">
-        <img src="./assets/11.png">
-        <img src="./assets/12.png">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/679761809df713a6675d12eb9419a643.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/48ba889c369c98ce1dc56bae5d0eee14.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/2c096f58970e705fbe52925e906f2e7e.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/373a41aaee32da4900c7e8b2d1ee8066.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/eb9ed736f55e2e6aa3734827cbe6e40f.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/10b4ad1de94091596b145273cb734e39.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/90b88e99e49e7226e3d8f742c5bf346d.png?imageMogr2/format/webp/quality/40/ignore-error/1">
         <video controls class="video">
-          <source src="./assets/骨骼绑定演示视频.mp4" type="video/mp4">
+          <source src="https://hf.max-c.com/file/1954892945874362368.mp4" type="video/mp4">
         </video>
-        <img src="./assets/13.png">
-        <img src="./assets/14.png">
-        <img src="./assets/15.png">
-        <img src="./assets/16.png">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/7f8665892581576d116cf23511acda61.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/ed1daf4f4da75d0a461704e76f95bfb9.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/9bbefb568049eefdb3868cc69e75a28d.png?imageMogr2/format/webp/quality/40/ignore-error/1">
+        <img src="https://imgheybox.max-c.com/web/bbs/2025/08/11/416e0f1d99c3dabdca35de033ce6d875.png?imageMogr2/format/webp/quality/40/ignore-error/1">
       </div>
     </div>
   </div>
